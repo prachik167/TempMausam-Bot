@@ -1,0 +1,168 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Dashboard Wrapper */
+.dashboard-wrapper {
+  width: 90%;
+  max-width: 1200px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Dashboard Header */
+.dashboard-header {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Card Styles */
+.card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* User Table */
+.user-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.user-list th,
+.user-list td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-list th {
+  background: #4e54c8;
+  color: #fff;
+  font-weight: bold;
+}
+
+.user-list td {
+  background: #f9f9f9;
+}
+
+.user-list td button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.user-list td button.block {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.user-list td button.unblock {
+  background-color: #4caf50;
+  color: white;
+}
+
+.user-list td button.delete {
+  background-color: #007bff;
+  color: white;
+}
+
+.user-list td button:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+/* API Key Section */
+.api-settings {
+  text-align: center;
+}
+
+.api-settings h2 {
+  margin-bottom: 10px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input-group input {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-group button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4e54c8;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.input-group button:hover {
+  background-color: #6a11cb;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .dashboard-content {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .input-group input {
+      width: 100%;
+  }
+}
+
+
+
+  
