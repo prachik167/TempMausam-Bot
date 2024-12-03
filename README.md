@@ -63,5 +63,3 @@ Before running the bot, ensure you have the following installed:
 <h4>Telegram Bot</h4>
 ![Screenshot (391)](https://github.com/user-attachments/assets/e21d6a8a-e935-4f1f-867c-22b807b5752d)
 
-<h4>Demo Video</h4>
-https://www.loom.com/share/5cde39589cc047aea131e90475364058?sid=11dd85b0-e8c3-4a96-9ad5-bad4e9775a58
